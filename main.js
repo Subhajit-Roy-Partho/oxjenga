@@ -309,7 +309,7 @@ const init = () => {
                 //"hairygami.oxview",
                 //"hairpin.oxview",
                 //"Leaf.oxview",
-                "monohole_1b.oxview",
+                //"monohole_1b.oxview",
                 //"moon.oxview",
                 //"meta.oxview",
                 //"gated-channel.oxview",
@@ -317,7 +317,8 @@ const init = () => {
                 //"teather.oxview",
                 //"planeV3.oxview",
                 //"1eua.oxview",
-                "rna_crossover.oxview"
+                //"rna_crossover.oxview"
+                "archana.oxview"
             ].map(p => "resources/" + p);
         }
         getNext() {

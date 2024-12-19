@@ -85,6 +85,6 @@ export class OXServeSocket extends WebSocket{
 }
  
 export const establishConnection = (system, top_file, dat_file, onUpdate, type) => {
-    const url = "wss://nanobase.org:8989";
+    // const url = "wss://nanobase.org:8989";
     return  new OXServeSocket(url, system, top_file, dat_file, onUpdate, type);
 };

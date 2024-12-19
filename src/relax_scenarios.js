@@ -39,7 +39,7 @@ export var dna_relax_scenario = {
 };
 
 export var rna_relax_scenario = {
-    "T": "40C",
+    "T": "20C",
     //"seed":1,
     "steps": 1e6,
     "salt_concentration": 1,

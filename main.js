@@ -251,7 +251,7 @@ const initSceneFromJSON = (txt) => {
     window.socket = ox_socket;
 
     new Promise(resolve => setTimeout(resolve, 2000)).then(() => {
-        ox_socket.start_simulation();
+        // ox_socket.start_simulation();
     });
 
     return [strands, n_monomers];
@@ -319,6 +319,7 @@ const init = () => {
                 //"1eua.oxview",
                 //"rna_crossover.oxview"
                 "archana.oxview"
+                //"hairygami.oxview",
             ].map(p => "resources/" + p);
         }
         getNext() {

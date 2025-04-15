@@ -320,7 +320,8 @@ const init = () => {
                 //"planeV3.oxview",
                 //"1eua.oxview",
                 //"rna_crossover.oxview"
-                "archana.oxview"
+                // "archana.oxview",
+                "cube.oxview"
                 //"hairygami.oxview",
             ].map(p => "resources/" + p);
         }
